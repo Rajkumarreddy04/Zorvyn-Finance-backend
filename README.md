@@ -70,3 +70,11 @@ http://localhost:5000/api-docs
 - Admin → Full access (CRUD)
 - Analyst → Read + Dashboard
 - Viewer → Limited access
+
+10.How It Works
+
+- Users register and login to receive a JWT token
+- Token is used to access protected routes
+- Role middleware restricts access based on user role
+- Records are stored in Supabase database
+- Dashboard aggregates financial data
